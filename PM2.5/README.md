@@ -6,3 +6,4 @@
 - [A step-by-step guide](https://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/)
 - [A blog](https://www.sunfounder.com/blog/rpi-ard/)
 - [With Arduino nano](https://arduinosensor.tumblr.com/post/134226139300/gp2y1010au0fpart2)
+- [A github guide](https://github.com/sharpsensoruser/sharp-sensor-demos/wiki/Application-Guide-for-Sharp-GP2Y1014AU0F-Dust-Sensor)
