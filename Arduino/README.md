@@ -6,3 +6,4 @@ This folder contains materials about using Arduino with Raspberry Pi.
 
 + [RPi & Arduino Serial Communication](https://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/)
 + [Grab Serial Blog](https://www.sunfounder.com/blog/rpi-ard/)
++ [grabserial.py](https://raw.githubusercontent.com/tbird20d/grabserial/master/grabserial)
