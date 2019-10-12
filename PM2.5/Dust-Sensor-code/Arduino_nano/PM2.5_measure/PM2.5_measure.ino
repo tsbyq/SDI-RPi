@@ -181,6 +181,7 @@ void loop(void){
        //print voltage
        print(getAverageRawSamples());
      } else {
+       //print("Now: ");
        print(calculateDust());
        if(!DEBUG_MODE)delay(SLEEP);
      }
