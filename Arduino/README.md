@@ -3,3 +3,6 @@ This folder contains materials about using Arduino with Raspberry Pi.
 + [Programming an Arduino from Raspberry Pi](https://www.youtube.com/watch?v=mfIacE-SPvg)
 + [Connect Aruduino with RPi](https://conoroneill.net/2013/06/05/connecting-an-arduino-to-raspberry-pi-for-the-best-of-both-worlds/)
 + [Connect Aruduino with RPi 2](https://www.sunfounder.com/blog/rpi-ard/)
+
++ [RPi & Arduino Serial Communication](https://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/)
++ [Grab Serial Blog](https://www.sunfounder.com/blog/rpi-ard/)
