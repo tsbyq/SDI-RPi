@@ -259,7 +259,7 @@ def grab(arglist, outputfd=sys.stdout):
         usage(2)
 
     sd = serial.Serial()
-    sd.port = "/dev/cu.usbserial-1420"
+    sd.port = "/dev/ttyUSB0"
     sd.baudrate = 9600
     sd.bytesize = serial.EIGHTBITS
     sd.parity = serial.PARITY_NONE
