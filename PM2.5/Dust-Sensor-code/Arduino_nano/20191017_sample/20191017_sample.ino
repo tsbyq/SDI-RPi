@@ -106,9 +106,9 @@ void loop(void)
   /*
   display the result
   */
-  Serial.print("The current dust concentration is: ");
+  //Serial.print("The current dust concentration is: ");
   Serial.print(density);
   Serial.print(" ug/m3\n");  
   
-  delay(2000);
+  delay(60000);
 }
