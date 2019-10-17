@@ -45,10 +45,10 @@ def main():
             v_T.append(result.temperature)
             v_RH.append(result.humidity)
             print"Timestamp =", dt_string, ", Temperature = ", result.temperature, "C", " Humidity = ", result.humidity, "%"
-            time.sleep(10)
+            time.sleep(30)
 
         # Save to file every 360 entry
-        if count == 360:
+        if count == 1440:
             print 'Save one batch...'
             now = datetime.now()
             end = now.strftime("%Y-%M-%d_%H-%M")
