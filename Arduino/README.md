@@ -10,3 +10,4 @@ This folder contains materials about using Arduino with Raspberry Pi.
 
 + [A very good video on how to grab serial data from Arduino](https://www.youtube.com/watch?v=YYAsh7HUNNQ)
 + [Grab serial data from Arduino on Windows](https://petrimaki.com/2013/04/28/reading-arduino-serial-ports-in-windows-7/)
++ To use the grabserial.py file, install 'pyserial' package first.
