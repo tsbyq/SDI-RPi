@@ -27,25 +27,25 @@ def main():
         now = datetime.now()
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
         v_time.append(dt_string)
-        v_lux.append(result['lux'])
+        v_lux.append(round(result['lux'], 2))
         v_full.append(result['full'])
         v_ir.append(result['ir'])
         print(result)
         time.sleep(sample_interval)
 
-    if count >= batch_duration*second_in_hour//sample_interval:
-        print('Save one batch...')
-        now = datetime.now()
-        end = now.strftime("%Y-%M-%d_%H-%M")
-        batch += 1
-        df = pd.DataFrame({
-            'Time': v_time,
-            'Lux': v_lux,
-            'Full': v_full,
-            'IR': v_ir
-        })
-        df.to_csv('Batch_'+str(batch)+'_'+start + ' to ' + end + '.csv', index=False)
-        count = 0
+        if count >= batch_duration*second_in_hour//sample_interval:
+            print('Save one batch...')
+            now = datetime.now()
+            end = now.strftime("%Y-%M-%d_%H-%M")
+            batch += 1
+            df = pd.DataFrame({
+                'Time': v_time,
+                'Lux': v_lux,
+                'Full': v_full,
+                'IR': v_ir
+            })
+            df.to_csv('Batch_'+str(batch)+'_'+start + ' to ' + end + '.csv', index=False)
+            count = 0
 
 if __name__ == '__main__':
     try:
