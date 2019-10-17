@@ -110,28 +110,5 @@ void loop(void)
   Serial.print(density);
   Serial.print(" ug/m3\n");  
   
-  delay(1000);
+  delay(10000);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
