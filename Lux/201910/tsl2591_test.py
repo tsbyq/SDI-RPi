@@ -13,7 +13,7 @@ def main():
     count = 0
     batch = 0
     while True:
-        result = tsl.get_current()\
+        result = tsl.get_current()
         if count == 0:
             now = datetime.now()
             start = now.strftime("%Y-%m-%d_%H-%M")
