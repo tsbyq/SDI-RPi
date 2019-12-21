@@ -1,0 +1,1 @@
++ [A video about window openning sensor](https://www.youtube.com/watch?v=s5_2QVlT-oE)
